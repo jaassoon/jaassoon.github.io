@@ -1,9 +1,4 @@
 git.md  
-### color your git
-[color]
-  diff = auto
-  status=auto
-
 git remote add origin https://github.com/jaassoon/{}.git  
 git fetch  
 git branch --set-upstream-to=origin/{} master  

@@ -1,0 +1,10 @@
+[user]
+	email = xxx@xxx.com
+	name = xxx
+[push]
+	default = simple
+[core]
+	qutoepath = false
+[color]
+  diff = auto
+  status=auto

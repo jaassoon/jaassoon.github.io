@@ -1,7 +1,4 @@
 git.md  
-#### auto complete
-@.bashrc  
-source /etc/bash_completion.d/git
 git remote add origin https://github.com/jaassoon/{}.git  
 git fetch  
 git branch --set-upstream-to=origin/{} master  

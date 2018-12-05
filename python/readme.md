@@ -2,8 +2,8 @@
 [harfbuzz,a text shaping library.](https://github.com/harfbuzz/harfbuzz)  
 [opencv](https://github.com/opencv/opencv)  
 [opencv_contrib](https://github.com/opencv/opencv_contrib)  
-```python
 if you want to write code as below,you should build cv2 by yourself.
+```python
 ft = cv2.freetype.createFreeType2()
     ft.loadFontData(os.path.join("fonts", 'MS_Mincho.ttf'), id=0)
     if len(boxes)==0:

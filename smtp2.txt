@@ -1,0 +1,44 @@
+telnet host 25
+EHLO host
+MAIL FROM:<addr@host>
+RCPT TO:<aaaa@host>
+DATA
+Date: Mon, 25 Jun 2012 10:00:00 +0900 (JST)
+From: addr@host
+To: aaaa@host
+Subject: Update
+Message-ID: <xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>
+MIME-Version: 1.0
+Content-length: 8
+Content-type: multipart/form-data; boundary="abcdefg"
+
+This is the preamble.  It is to be ignored, though it 
+ is a handy place for mail composers to include an 
+ explanatory note to non-MIME compliant readers.
+
+--abcdefg
+Content-Type: text/html; charset=Shift_JIS
+Content-Transfer-Encoding: 7bit
+
+<html>
+<head>
+<style>
+</style>
+</head>
+<body>
+<pre>
+  本文
+</pre> 
+</body>
+</html>
+
+--abcdefg 
+ Content-type: text/plain; charset=us-ascii 
+
+ This is explicitly typed plain ASCII text. 
+ It DOES end with a linebreak. 
+
+--abcdefg-- 
+ This is the epilogue.  It is also to be ignored.
+.
+quit

@@ -7,7 +7,7 @@ auto fill your form [jQuery-AutoFill](https://github.com/mmangino/jQuery-AutoFil
 #### kendo-ui
 [kendo-ui-core](https://github.com/telerik/kendo-ui-core)
 #### typescript
-[TypeScript](https://github.com/Microsoft/TypeScript)
+[TypeScript](https://github.com/Microsoft/TypeScript)  
 [jquery-dateFormat](https://github.com/phstc/jquery-dateFormat)
 #### angular
 [angular2-step-by-step-01-your-first-component](https://github.com/Vintharas/angular2-step-by-step-01-your-first-component)  

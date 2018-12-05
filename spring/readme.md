@@ -9,5 +9,6 @@
 #### RESTful specification
 [restful-api-specification](https://github.com/godruoyi/restful-api-specification)
 
-#### aws cli
-upload/download file to aws in command line. [aws-cli](https://github.com/aws/aws-cli)
+#### aws
+upload/download file to aws in command line. [aws-cli](https://github.com/aws/aws-cli)  
+[spring-boot-starter-amazon-s3](https://github.com/kbastani/spring-boot-starter-amazon-s3)

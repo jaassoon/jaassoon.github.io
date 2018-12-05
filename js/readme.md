@@ -2,13 +2,13 @@
 you can use it to draw fishbone chart.[d3](https://github.com/d3/d3)
 
 #### jquery
-auto fill your form [jQuery-AutoFill](https://github.com/mmangino/jQuery-AutoFill)
-
+auto fill your form [jQuery-AutoFill](https://github.com/mmangino/jQuery-AutoFill)  
+[jquery-dateFormat](https://github.com/phstc/jquery-dateFormat)
 #### kendo-ui
 [kendo-ui-core](https://github.com/telerik/kendo-ui-core)
 #### typescript
 [TypeScript](https://github.com/Microsoft/TypeScript)  
-[jquery-dateFormat](https://github.com/phstc/jquery-dateFormat)
+
 #### angular
 [angular2-step-by-step-01-your-first-component](https://github.com/Vintharas/angular2-step-by-step-01-your-first-component)  
 my project [my-angularjs-tutorial](https://github.com/jaassoon/angularjs-tutorial)  

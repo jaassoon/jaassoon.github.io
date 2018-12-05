@@ -1,0 +1,14 @@
+telnet host 25
+helo host 
+mail from:<addr@host> 
+rcpt to:<addr@host> 
+data 
+Date: Sun, 30 Nov 98 nn:nn:nn EST
+From: Carol <addr@host>
+To:   bb<addr@host>
+Cc:   cc<addr@host>
+Subject: Update
+
+This is a test, please do not respond
+.
+quit

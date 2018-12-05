@@ -1,0 +1,13 @@
+ipparam your-vpn
+nodetach
+usepeerdns
+noipdefault
+nodefaultroute
+noauth
+noccp
+refuse-eap
+refuse-pap
+lcp-echo-failure 0
+lcp-echo-interval 0
+mru 1400
+mtu 1400

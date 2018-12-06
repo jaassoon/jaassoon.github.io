@@ -1,7 +1,7 @@
-#### numpy
-[numpy](https://github.com/numpy/numpy)
+#### [numpy library](https://github.com/numpy/numpy)
 
 #### virtual env
-pip install virtualenv  
+sudo easy_install pip  
+sudo pip install virtualenv  
 virtualenv -p python3.6 /destFolder  
 source /destFolder/bin/activate

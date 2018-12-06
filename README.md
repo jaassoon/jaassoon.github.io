@@ -6,5 +6,6 @@
 ocr by c [tesseract](https://github.com/tesseract-ocr/tesseract)  
 japanese ocr [nhocr](https://github.com/fireae/nhocr) 
 
-centos docker [flyceek/docker](https://github.com/flyceek/docker)
+centos docker [flyceek/docker](https://github.com/flyceek/docker)  
+docker android [docker-android](https://github.com/nekocode/docker-android)
 

@@ -15,6 +15,10 @@ centos docker [cent-docker](https://github.com/internavenue/dockerfiles)
 code analyzer[pmd](https://github.com/pmd/pmd)  
 .net tool [katanaproject](https://github.com/icyjiang/katanaproject)
 
-js tester[tc39/test262](https://github.com/tc39/test262)
+js tester[tc39/test262](https://github.com/tc39/test262)  
+
+#### deep learning library
+[Theano](https://github.com/Theano/Theano)
+[facebook ai](https://github.com/facebookresearch/ParlAI)
 
 

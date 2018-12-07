@@ -5,8 +5,7 @@ from keras.layers import Input, Dense
 from keras.models import Model
 # Just disables the warning, doesn't enable AVX/FMA
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-from tensorflow.python import debug as tf_debug
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2
 
 def write_log(callback, names, logs, batch_no):
     for name, value in zip(names, logs):

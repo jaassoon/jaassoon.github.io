@@ -1,5 +1,5 @@
 # have a nice day!
-
+[tfdebug](https://github.com/jaassoon/jaassoon.github.io/blob/master/tensorflow/tf-debug/readme.md)  
 [deeplearning-book](https://github.com/exacity/deeplearningbook-chinese)  
 [pdf](https://github.com/exacity/deeplearningbook-chinese/releases/download/v0.5-beta/dlbook_cn_v0.5-beta.pdf)  
 

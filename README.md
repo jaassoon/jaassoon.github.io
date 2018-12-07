@@ -10,6 +10,8 @@ centos docker [flyceek/docker](https://github.com/flyceek/docker)
 docker android [docker-android](https://github.com/nekocode/docker-android)  
 docker php [php-docker](https://github.com/vkyii/docker)  
 centos docker [cent-docker](https://github.com/internavenue/dockerfiles)  
+[CentOS-Dockerfiles](https://github.com/CentOS/CentOS-Dockerfiles)
+
 [nodejs](https://github.com/nodejs/node)  
 
 code analyzer[pmd](https://github.com/pmd/pmd)  
@@ -18,7 +20,10 @@ code analyzer[pmd](https://github.com/pmd/pmd)
 js tester[tc39/test262](https://github.com/tc39/test262)  
 
 #### deep learning library
-[Theano](https://github.com/Theano/Theano)
-[facebook ai](https://github.com/facebookresearch/ParlAI)
+[Theano](https://github.com/Theano/Theano)  
+[facebook ai](https://github.com/facebookresearch/ParlAI)  
+
+[freebsd](https://github.com/freebsd/freebsd)  
+[homebrew](https://github.com/Homebrew/brew)
 
 

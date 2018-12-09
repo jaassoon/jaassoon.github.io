@@ -1,3 +1,5 @@
+
+***Topics***
 * [tfdebug](https://github.com/jaassoon/jaassoon.github.io/blob/master/tensorflow/tf-debug/)  
 
 ***Others***

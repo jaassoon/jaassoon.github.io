@@ -1,11 +1,11 @@
-#### display contxt sources by l (list)
+#### display context sources by l (list)
 ```shell
 ipdb> l
 ```
-b 02_logistic_regression.py:44,start>54500  to add condition break point;
-#### add break point
+#### add break point or condition break point
 ```shell
 ipdb> b /usr/lib64/python3.6/site-packages/keras/engine/training.py:142
+ipdb> b xxx.py:44,start>54500
 ```
 continue c
 #### step into

@@ -25,6 +25,7 @@ js tester[tc39/test262](https://github.com/tc39/test262)
 #### deep learning library
 [Theano](https://github.com/Theano/Theano)  
 [facebook ai](https://github.com/facebookresearch/ParlAI)  
+[tensorflow](https://github.com/tensorflow/tensorflow)  
 
 [freebsd](https://github.com/freebsd/freebsd)  
 [homebrew](https://github.com/Homebrew/brew)  

@@ -7,7 +7,6 @@ ipdb> l
 ipdb> b /usr/lib64/python3.6/site-packages/keras/engine/training.py:142
 ipdb> b xxx.py:44,start>54500
 ```
-continue c
 #### step into
 ```shell
 ipdb> s
@@ -29,40 +28,38 @@ ipdb> p len(tuple)
 ```
 pprint pp  
 !var_name to change var value  
-r >continue until return, use after setp into
+r >continue until return, use after setp into  
 help  
-w where >Print a stack trace, 
-u up
-d down >Move the current frame count (default one) levels down in the stack trace (to a newer frame).
-locals()
-tbreak >Temporary breakpoint,
-cl(ear) >clear breakpoint
-disable >Disable the breakpoints 
-enable
-ignore
-condition
-unt(il) [lineno]> continue until lineno
+w where >Print a stack trace,   
+u up  
+d down >Move the current frame count (default one) levels down in the stack trace (to a newer frame).  
+locals()  
+tbreak >Temporary breakpoint,  
+cl(ear) >clear breakpoint  
+disable >Disable the breakpoints  
+enable  
+ignore  
+condition  
+unt(il) [lineno]> continue until lineno  
 #### jump to specified line
 ```shell
 ipdb> j 142
 ```
-whatis Print the type of the expression.
-source >show src
-display [expression]
-undisplay
-interact
-alias
-unalias
-restart
+whatis Print the type of the expression.  
+source >show src  
+display [expression]  
+undisplay  
+interact  
+alias  
+unalias  
+restart  
 #### continue to run
 ```shell
 ipdb> run
+ipdb> c
 ```
-
 python3.5 -m pdb myscript.py
 #### enter key
 If you press ENTER without entering anything, pdb will re-execute the last command that you gave it.  
 
-break fib.py:4
-break fib.main >when main() executed
-break fib.py:4, high > 10  >condition break point
+break fib.main >when main() executed  

@@ -1,3 +1,12 @@
+### how to use
+```pyton
+import ipdb
+ipdb.setTrace()
+```
+or
+```shell
+python -m pdb xxx.py
+```
 #### display context sources by l (list)
 ```shell
 ipdb> l
@@ -58,7 +67,6 @@ restart
 ipdb> run
 ipdb> c
 ```
-python3.5 -m pdb myscript.py
 #### enter key
 If you press ENTER without entering anything, pdb will re-execute the last command that you gave it.  
 

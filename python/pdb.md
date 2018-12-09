@@ -1,9 +1,20 @@
-l to locate current line;  
-b 02_logistic_regression.py:44,start>54500  to add condition break point;  
+#### locate current line by l
+```shell
+ipdb> l
+```
+b 02_logistic_regression.py:44,start>54500  to add condition break point;
+#### add break point
+```shell
+ipdb> b /usr/lib64/python3.6/site-packages/keras/engine/training.py:142
+```
 break b  >break fib.py:4
 continue c  
 list l  
 step s >step into  
+#### exit debug mode
+```shell
+ipdb> q
+```
 return r  
 exit q  
 quit q  >maybe restart debug  

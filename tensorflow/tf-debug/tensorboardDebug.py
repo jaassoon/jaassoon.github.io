@@ -1,6 +1,6 @@
+# just to demo how to startup tensorboard debugger
 import numpy as np
 import tensorflow as tf
-from keras.callbacks import TensorBoard
 from keras.layers import Input, Dense
 from keras.models import Model
 # Just disables the warning, doesn't enable AVX/FMA
@@ -17,10 +17,11 @@ model.compile(loss='mse', optimizer='sgd' )
 for batch_no in range(3):
     X_train, Y_train = np.random.rand(32, 3), np.random.rand(32, 1)
     logs = model.train_on_batch(X_train, Y_train)
-    print(logs)
+    print('train loss',logs)
 
     if batch_no % 1 == 0:
         X_val, Y_val = np.random.rand(32, 3), np.random.rand(32, 1)
-        logs = model.train_on_batch(X_val, Y_val)
+        logs = model.evaluate(X_val, Y_val)
+        print('valid loss',logs)
 #then startup tensorboard server
 #tensorboard --logdir=anyFolder --debugger_port 6007

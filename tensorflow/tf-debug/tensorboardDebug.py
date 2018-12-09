@@ -4,8 +4,7 @@ from keras.callbacks import TensorBoard
 from keras.layers import Input, Dense
 from keras.models import Model
 # Just disables the warning, doesn't enable AVX/FMA
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+import os;os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import keras.backend as K
 from tensorflow.python import debug as tf_debug
 K.set_session(tf_debug.TensorBoardDebugWrapperSession(tf.Session(), "localhost:6007"))

@@ -7,7 +7,6 @@ b 02_logistic_regression.py:44,start>54500  to add condition break point;
 ```shell
 ipdb> b /usr/lib64/python3.6/site-packages/keras/engine/training.py:142
 ```
-break b  >break fib.py:4
 continue c  
 list l  
 step s >step into  
@@ -16,7 +15,6 @@ step s >step into
 ipdb> q
 ```
 return r  
-exit q  
 quit q  >maybe restart debug  
 #### forward to next line
 ```shell
@@ -42,7 +40,10 @@ enable
 ignore
 condition
 unt(il) [lineno]> continue until lineno
-j(ump) lineno
+#### jump to specified line
+```shell
+ipdb> j 142
+```
 whatis Print the type of the expression.
 source >show src
 display [expression]
@@ -51,10 +52,14 @@ interact
 alias
 unalias
 restart
-run
+#### continue to run
+```shell
+ipdb> run
+```
 
-python3.5 -m pdb myscript.py  
-If you press ENTER without entering anything, pdb will re-execute the last command that you gave it.
+python3.5 -m pdb myscript.py
+#### enter key
+If you press ENTER without entering anything, pdb will re-execute the last command that you gave it.  
 
 break fib.py:4
 break fib.main >when main() executed

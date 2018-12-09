@@ -1,4 +1,4 @@
-#### locate current line by l
+#### display contxt sources by l (list)
 ```shell
 ipdb> l
 ```
@@ -7,9 +7,11 @@ b 02_logistic_regression.py:44,start>54500  to add condition break point;
 ```shell
 ipdb> b /usr/lib64/python3.6/site-packages/keras/engine/training.py:142
 ```
-continue c  
-list l  
-step s >step into  
+continue c
+#### step into
+```shell
+ipdb> s
+```
 #### exit debug mode
 ```shell
 ipdb> q

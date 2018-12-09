@@ -23,6 +23,9 @@ js tester[tc39/test262](https://github.com/tc39/test262)
 [facebook ai](https://github.com/facebookresearch/ParlAI)  
 
 [freebsd](https://github.com/freebsd/freebsd)  
-[homebrew](https://github.com/Homebrew/brew)
+[homebrew](https://github.com/Homebrew/brew)  
 
-
+[baidu-apollo](https://github.com/ApolloAuto/apollo)  
+[keras](https://github.com/keras-team/keras)  
+[.net-CodeContracts](https://github.com/Microsoft/CodeContracts)  
+[docker-images](https://github.com/ContinuumIO/docker-images)

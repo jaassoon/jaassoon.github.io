@@ -9,3 +9,9 @@ ng server
 npm list --depth=0
 npm view moduleName
 ```
+
+How to set optional class parameters in Angular 2-Typescript_ - Stack Overflow.pdf  
+Why does angular-cli create component_shared_index.pdf  
+angular - What are all the index.pdf  
+javascript - How to import a barrel by folder name only_ - Stack Overflow.pdf  
+javascript - Why is colspan not a known native attribute in Angular 2_ - Stack Overflow.pdf  

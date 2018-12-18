@@ -30,3 +30,6 @@ byte[] exp=mac.doFinal();
 
 return ConstantTimeUtils.areEqual(exp, signedJWT.getSignature().decode());
 ```
+
+[c-sharp-how-to-verify-signature-on-jwt-token](https://stackoverflow.com/questions/38725038/c-sharp-how-to-verify-signature-on-jwt-token)  
+[jwt claims](https://www.iana.org/assignments/jwt/jwt.xhtml)

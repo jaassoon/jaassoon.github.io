@@ -1,3 +1,35 @@
+jquery.md  
+###### jquery
+ $('#xForm').find('input').each(function(){
+    if($(this).is(':radio')||$(this).is(':text')){$(this).prop('disabled', true)}})
+###### jquery
+$("input[id^='frontTime']").each(function(){
+      $(this).closest('div').find('button').each(function(){$(this).prop('disabled', true)})})    
+
+###### &nbsp;      
+
+###### done().fail() is updated usage vs success
+###### on() is updated usage vs .bind() event
+###### removeAttr(name) .attr( attributeName, value )
+###### break vs continue
+return false; // break の代わり
+###### addClass vs removeClass
+removeAttr('readonly');
+attr('readonly', 'readonly');
+###### var size = Object.keys(myObj).length;
+###### previous url
+document.referrer
+css('name',value)
+str.indexOf()
+if(options.callback&&$.type(options.callback) === "function")options.callback();
+###### .attr vs .prop
+$(".myCheckbox").attr('checked', true); // Deprecated
+$(".myCheckbox").prop('checked', true);
+
+$(要素).is(':disabled') 
+$(this).text().substring(0,25);
+###### $form.serializeArray() vs $form.serialize()
+
 jquery-plugins  
 DateTimePicker.pdf  
 jquery - DatePicker Javascript pass array of allowed times on init - Stack Overflow.pdf  

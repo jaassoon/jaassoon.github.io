@@ -55,3 +55,14 @@ PHP_ 配列のソート - Manual.pdf
 phpを使用していてMaximum execution time of 30 seconds exceededのエラーが出てしまう場合 - ヒロノート@WECSy Marketing.pdf  
 The List of the 10 Most Common Mistakes That PHP Developers Make _ Toptal.pdf  
 文字列の長さを取得(strlen, mb_strlen) - 文字列関数 - PHP関数.pdf  
+
+
+
+php  
+[PHP]php.pdf  
+Advanced Usage · squizlabs_PHP_CodeSniffer Wiki.pdf  
+file_get_contents - ファイルの内容を全て文字列に読み込む.pdf  
+HowToConfigureXDebug - NetBeans Wiki.pdf  
+html - HtmlSpecialChars equivalent in Javascript_ - Stack Overflow.pdf  
+PHP Depend PEAR channel.pdf  
+PHP Mess Detector PEAR channel.pdf  

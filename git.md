@@ -8,4 +8,13 @@ git pull
 git push origin HEAD:{}  
 git clone -b {} https://github.com/jaassoon/{}.git {}  
 #### if cant push
-check your token is expire or not.
+check your token is expire or not.  
+
+git  
+git - Applying .pdf  
+git - Can I get a list of files marked --assume-unchanged_ - Stack Overflow.pdf  
+git - No _pull_ in git gui_.pdf  
+git pull の時に_You asked me to pull ...pdf  
+git ready » temporarily ignoring files.pdf  
+Keeping a fork up to date.pdf  
+rebase - Git refusing to merge unrelated histories - Stack Overflow.pdf  

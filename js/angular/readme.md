@@ -15,3 +15,8 @@ Why does angular-cli create component_shared_index.pdf
 angular - What are all the index.pdf  
 javascript - How to import a barrel by folder name only_ - Stack Overflow.pdf  
 javascript - Why is colspan not a known native attribute in Angular 2_ - Stack Overflow.pdf  
+
+TypeScript  
+JavaScript ES6+_ var, let, or const_ – JavaScript Scene – Medium.pdf  
+TypeScriptのDecoratorメモ - Qiita.pdf  
+Typescriptの内部・外部moduleの使い方 - Qiita.pdf  

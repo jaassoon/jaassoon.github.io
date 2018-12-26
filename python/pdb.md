@@ -1,7 +1,6 @@
 ### how to use
 ```pyton
-import ipdb
-ipdb.setTrace()
+import ipdb;ipdb.setTrace()
 ```
 or
 ```shell

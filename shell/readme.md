@@ -6,3 +6,4 @@ if [ ${CNT} -gt 2 ]; then
 	exit 1
 fi
 ```
+kill $(lsof -t -i:8080)

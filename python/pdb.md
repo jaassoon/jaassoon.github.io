@@ -1,9 +1,10 @@
 ### how to use
 ```pyton
-import ipdb;ipdb.setTrace()
+import ipdb;ipdb.set_trace()
 ```
 or
 ```shell
+ipython -m ipdb xxx.py
 python -m pdb xxx.py
 ```
 #### display context sources by l (list)

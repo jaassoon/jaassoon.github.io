@@ -67,11 +67,12 @@ git init --bare
 
 git update-index --assume-unchanged common.php
 ---------------------------------------------
+```
 git init --bare
 git clone
 git push origin master
-git remote set-url origin xxxx  
-
+git remote set-url origin /path/to/your/repos  
+```
 ### 1. Clone your fork:
 
     git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
@@ -81,3 +82,14 @@ git remote set-url origin xxxx
     cd into/cloned/fork-repo
     git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
     git fetch upstream
+    
+```shell
+$ tar -zxf git-2.0.0.tar.gz
+$ cd git-2.0.0
+$ make configure
+$ ./configure --prefix=/usr
+$ make all doc info
+$ sudo make install install-doc install-html install-info
+```
+
+git config --global credential.helper stores

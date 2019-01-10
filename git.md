@@ -1,4 +1,9 @@
 git.md  
+```shell
+git checkout --theirs file.txt
+then git commit -a
+git pull
+```
 git remote add origin https://github.com/jaassoon/{}.git  
 git fetch  
 git branch --set-upstream-to=origin/{} master  

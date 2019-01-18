@@ -98,4 +98,7 @@ $ make all
 $ sudo make install
 ```
 
-git config --global credential.helper stores
+git config --global credential.helper stores  
+
+[git auto complete](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)  
+source ~/git-completion.bash  
